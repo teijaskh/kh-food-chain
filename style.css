@@ -1,4 +1,28 @@
-h1 {
-    color: red;
-    font-weight: 800;
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.intro-food {
+    display: flex;
+}
+
+.khintro {
+    width: 50%;
+    margin-top: 100px;
+}
+
+#skipdiet {
+    margin-top: 300px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+.order-button {
+    text-decoration: none;
+    padding: 10px 40px;
+    color: white;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 30px;
 }
