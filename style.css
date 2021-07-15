@@ -1,9 +1,13 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
 
 .intro-food {
+    display: flex;
+}
+.about-me {
     display: flex;
 }
 
@@ -13,16 +17,90 @@ body {
 }
 
 #skipdiet {
-    margin-top: 300px;
+    margin-top: 250px;
     margin-left: 50px;
-    margin-right: 50px;
+    margin-right: 70px;
 }
 
 
 .order-button {
     text-decoration: none;
-    padding: 10px 40px;
+    padding: 20px 40px;
     color: white;
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(to right, #fb984c , #fe492e);
     border-radius: 30px;
+    margin-left: 80px;
+
+}
+
+.about-me-text {
+    margin: 200px;
+}
+
+#background-sec2 {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+
+#female-persona {
+    margin-left: 300px;
+}
+
+.recipie {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.recipie p {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-weight: 400;
+}
+
+.recipie-menu {
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.recipie-menu img{
+    width: 350px;
+    height: 200px;
+}
+
+.recipies-item {
+    margin: 2%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 10px 10px 40px grey;
+}
+
+
+
+.image-source {
+    border-radius: 15px;
+}
+
+.subscriber {
+    display: flex;
+    font-size: x-large;
+    margin-top: 100px;
+    margin-left: 12%;
+    margin-right: 12%;
+    box-shadow: 10px 10px 15px rgb(196, 196, 196);
+
+}
+.subs-item {
+    margin-right: 15%;
+    padding-left: 2%;
+}
+
+footer {
+    margin-top: 100px;
+    padding-top: 30px;
+    text-align: center;
+    height: 200px;
+    color: white;
+    background-color: black;
 }
